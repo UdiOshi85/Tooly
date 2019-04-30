@@ -9,14 +9,14 @@ ext {
 
     publishedGroupId = 'com.github.udioshi85'
     libraryName = 'Tooly'
-    artifact = 'Tooly'
+    artifact = 'tooly'
 
     libraryDescription = 'An helper library with common logic for future projects'
 
     siteUrl = 'https://github.com/UdiOshi85/Tooly'
     gitUrl = 'https://github.com/UdiOshi85/Tooly.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'udioshi85'
     developerName = 'Udi oshi'
