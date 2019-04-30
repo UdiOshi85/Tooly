@@ -3,6 +3,7 @@ package com.github.udioshi85.tooly
 import android.annotation.SuppressLint
 import android.content.Context
 import android.net.ConnectivityManager
+import com.github.udioshi85.tooly.extentions.toDp
 
 /**
  * Checks whether the device is has active inter connection.
@@ -11,7 +12,6 @@ import android.net.ConnectivityManager
 @SuppressLint("MissingPermission")
 fun hasConnection(context: Context): Boolean {
     return try {
-
         return if (hasAccessNetworkStatePermission(context)) {
             val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
             val activeNetworkInfo = connectivityManager.activeNetworkInfo

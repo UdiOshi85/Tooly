@@ -2,7 +2,6 @@ package com.github.udioshi85.tooly
 
 import android.os.Build
 
-
 fun isLollipopOrAbove() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP
 
 fun isMarshmelloOrAbove() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
