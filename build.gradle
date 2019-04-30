@@ -16,7 +16,7 @@ ext {
     siteUrl = 'https://github.com/UdiOshi85/Tooly'
     gitUrl = 'https://github.com/UdiOshi85/Tooly.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
 
     developerId = 'udioshi85'
     developerName = 'Udi oshi'
@@ -72,8 +72,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
-
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
 
 tasks.withType(Javadoc).all { enabled = false }

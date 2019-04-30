@@ -3,7 +3,6 @@ package com.github.udioshi85.tooly
 import android.annotation.SuppressLint
 import android.content.Context
 import android.net.ConnectivityManager
-import com.github.udioshi85.tooly.extentions.toDp
 
 /**
  * Checks whether the device is has active inter connection.
