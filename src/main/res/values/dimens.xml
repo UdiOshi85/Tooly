@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common DP's -->
+    <dimen name="dimen_0_dp">0dp</dimen>
+    <dimen name="dimen_1_dp">1dp</dimen>
+    <dimen name="dimen_2_dp">2dp</dimen>
+    <dimen name="dimen_3_dp">3dp</dimen>
+    <dimen name="dimen_4_dp">4dp</dimen>
+    <dimen name="dimen_6_dp">6dp</dimen>
+    <dimen name="dimen_8_dp">8dp</dimen>
+    <dimen name="dimen_12_dp">12dp</dimen>
+    <dimen name="dimen_14_dp">14dp</dimen>
+    <dimen name="dimen_16_dp">16dp</dimen>
+    <dimen name="dimen_20_dp">20dp</dimen>
+    <dimen name="dimen_24_dp">24dp</dimen>
+    <dimen name="dimen_32_dp">32dp</dimen>
+    <dimen name="dimen_36_dp">36dp</dimen>
+    <dimen name="dimen_40_dp">40dp</dimen>
+    <dimen name="dimen_48_dp">48dp</dimen>
+    <dimen name="dimen_52_dp">52dp</dimen>
+    <dimen name="dimen_56_dp">56dp</dimen>
+    <dimen name="dimen_64_dp">64dp</dimen>
+    <dimen name="dimen_72_dp">72dp</dimen>
+    <dimen name="dimen_96_dp">96dp</dimen>
+    <dimen name="dimen_128_dp">128dp</dimen>
+    <dimen name="dimen_256_dp">256dp</dimen>
+
+    <!-- Common PX's -->
+    <dimen name="dimen_1_px">1px</dimen>
+
+    <!-- Common SP's -->
+    <dimen name="dimen_12_sp">12sp</dimen>
+    <dimen name="dimen_13_sp">13sp</dimen>
+    <dimen name="dimen_14_sp">14sp</dimen>
+    <dimen name="dimen_15_sp">15sp</dimen>
+    <dimen name="dimen_16_sp">16sp</dimen>
+    <dimen name="dimen_18_sp">18sp</dimen>
+    <dimen name="dimen_20_sp">20sp</dimen>
+    <dimen name="dimen_22_sp">22sp</dimen>
+    <dimen name="dimen_24_sp">24sp</dimen>
+    <dimen name="dimen_36_sp">36sp</dimen>
+    <dimen name="dimen_48_sp">48sp</dimen>
+    <dimen name="dimen_56_sp">56sp</dimen>
+    <dimen name="dimen_64_sp">64sp</dimen>
+
+</resources>

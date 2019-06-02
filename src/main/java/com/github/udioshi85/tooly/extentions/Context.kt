@@ -7,4 +7,4 @@ import androidx.core.content.ContextCompat
 /**
  * Returns the color value from a given color resouse
  */
-fun Context.getColor(@ColorRes colorRes: Int) = ContextCompat.getColor(this, colorRes)
+fun Context.getColorCompat(@ColorRes colorRes: Int) = ContextCompat.getColor(this, colorRes)
