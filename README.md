@@ -1,7 +1,10 @@
 # Tooly Library
 
   **Installation:**
-    implementation 'com.github.udioshi85:tooly:1.0.4'
+  
+
+        implementation 'com.github.udioshi85:tooly:1.0.4'
+
 
 ## Examples:
 
