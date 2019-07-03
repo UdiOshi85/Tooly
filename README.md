@@ -1,4 +1,15 @@
-# Tooly
-Android library with common code for your future projects
+# Tooly Library
 
-implementation 'com.github.udioshi85:tooly:1.0.4'
+  **Installation:**
+    implementation 'com.github.udioshi85:tooly:1.0.4'
+
+## Examples:
+
+Instead of:
+
+    yourView.setVisibility(View.VISIBLE)
+Just use:
+
+    yourView.setVisible()
+
+**And many many more!**
