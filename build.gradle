@@ -16,7 +16,7 @@ ext {
     siteUrl = 'https://github.com/UdiOshi85/Tooly'
     gitUrl = 'https://github.com/UdiOshi85/Tooly.git'
 
-    libraryVersion = '1.0.4'
+    libraryVersion = '1.0.5'
 
     developerId = 'udioshi85'
     developerName = 'Udi oshi'
