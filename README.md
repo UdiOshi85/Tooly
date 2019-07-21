@@ -37,4 +37,3 @@
     isPieOrAbove()
     
 **Requests? Feedbacks? Mail! udioshi@gmail.com**
-**Free Software, Hell Yeah!**
