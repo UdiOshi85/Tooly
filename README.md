@@ -2,7 +2,9 @@
 ### A must-to-have android library before you start coding!
 
 
-[ ![Download](https://api.bintray.com/packages/udioshi85/maven/libGenericSettings/images/download.svg) ](https://bintray.com/udioshi85/maven/Tooly/_latestVersion)[ ![Library license](https://img.shields.io/badge/License-Apache--2.0-blue.svg) ]()
+[ ![Download](https://api.bintray.com/packages/udioshi85/maven/Tooly/images/download.svg) ](https://bintray.com/udioshi85/maven/Tooly/_latestVersion)[ ![Library license](https://img.shields.io/badge/License-Apache--2.0-blue.svg) ]()
+
+
 
 # Installation
     compile 'com.github.udioshi85:tooly:1.+'
