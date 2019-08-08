@@ -7,7 +7,7 @@
 
 
 # Installation
-    compile 'com.github.udioshi85:tooly:1.+'
+    implementation 'com.github.udioshi85:tooly:1.+'
 
 
 ### Tooly's Features:
