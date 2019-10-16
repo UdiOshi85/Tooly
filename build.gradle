@@ -16,7 +16,7 @@ ext {
     siteUrl = 'https://github.com/UdiOshi85/Tooly'
     gitUrl = 'https://github.com/UdiOshi85/Tooly.git'
 
-    libraryVersion = '1.1.1'
+    libraryVersion = '1.1.2'
 
     developerId = 'udioshi85'
     developerName = 'Udi oshi'
@@ -35,8 +35,8 @@ android {
     defaultConfig {
         minSdkVersion 18
         targetSdkVersion 28
-        versionCode 6
-        versionName "1.1.1"
+        versionCode 7
+        versionName "1.1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
