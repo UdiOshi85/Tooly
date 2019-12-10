@@ -16,7 +16,7 @@ ext {
     siteUrl = 'https://github.com/UdiOshi85/Tooly'
     gitUrl = 'https://github.com/UdiOshi85/Tooly.git'
 
-    libraryVersion = '1.1.4'
+    libraryVersion = '1.1.5'
 
     developerId = 'udioshi85'
     developerName = 'Udi oshi'
@@ -29,14 +29,14 @@ ext {
 
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
 
 
     defaultConfig {
         minSdkVersion 18
-        targetSdkVersion 28
-        versionCode 7
-        versionName "1.1.4"
+        targetSdkVersion 29
+        versionCode 8
+        versionName "1.1.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -50,6 +50,7 @@ android {
     }
 
     dataBinding {
+        //noinspection DataBindingWithoutKapt
         enabled = true
     }
 
