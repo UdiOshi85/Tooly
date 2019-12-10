@@ -1,7 +1,7 @@
 package com.github.udioshi85.tooly
 
 import android.content.Context
-import androidx.databinding.ViewDataBinding
+import android.databinding.ViewDataBinding
 
 /**
  * Simply getting the Context from the Binding root view.
