@@ -26,3 +26,8 @@ fun isOreoOrAbove() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.O
  * Return True if is above/equal 28
  */
 fun isPieOrAbove() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.P
+
+/**
+ * Return True is above/equal 29
+ */
+fun isQOrAbove() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q
