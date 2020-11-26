@@ -16,7 +16,7 @@ ext {
     siteUrl = 'https://github.com/UdiOshi85/Tooly'
     gitUrl = 'https://github.com/UdiOshi85/Tooly.git'
 
-    libraryVersion = '1.3'
+    libraryVersion = '1.4'
 
     developerId = 'udioshi85'
     developerName = 'Udi oshi'
@@ -29,14 +29,14 @@ ext {
 
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
 
 
     defaultConfig {
         minSdkVersion 18
-        targetSdkVersion 29
-        versionCode 12
-        versionName "1.3"
+        targetSdkVersion 30
+        versionCode 14
+        versionName "1.4"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
