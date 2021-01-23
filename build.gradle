@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: "kotlin-android"
-apply plugin: "kotlin-android-extensions"
+apply plugin: "kotlin-kapt"
 
 
 ext {
@@ -16,7 +16,7 @@ ext {
     siteUrl = 'https://github.com/UdiOshi85/Tooly'
     gitUrl = 'https://github.com/UdiOshi85/Tooly.git'
 
-    libraryVersion = '1.4'
+    libraryVersion = '1.5'
 
     developerId = 'udioshi85'
     developerName = 'Udi oshi'
@@ -35,11 +35,10 @@ android {
     defaultConfig {
         minSdkVersion 18
         targetSdkVersion 30
-        versionCode 14
-        versionName "1.4"
+        versionCode 15
+        versionName "1.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -49,11 +48,9 @@ android {
         }
     }
 
-    dataBinding {
-        //noinspection DataBindingWithoutKapt
-        enabled = true
+    buildFeatures {
+        dataBinding = true
     }
-
 }
 
 buildscript {
