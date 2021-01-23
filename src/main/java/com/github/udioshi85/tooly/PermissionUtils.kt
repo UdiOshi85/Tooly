@@ -13,6 +13,7 @@ fun hasPermission(context: Context, permission: String): Boolean = ContextCompat
 
 
 /** External storage **/
+fun hasReadExternalStoragePermission(context: Context): Boolean = hasPermission(context, Manifest.permission.READ_EXTERNAL_STORAGE)
 fun hasWriteExternalStoragePermission(context: Context): Boolean = hasPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE)
 fun requestExternalStoragePermission(activity: Activity, requestCode: Int) = ActivityCompat.requestPermissions(activity, arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE), requestCode)
 fun requestExternalStoragePermission(fragment: Fragment, requestCode: Int) = fragment.requestPermissions(arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE), requestCode)
